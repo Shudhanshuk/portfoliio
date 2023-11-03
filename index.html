@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather&family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,800;0,900;1,300;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: rgb(0,0, 35);
+            color: white;
+            font-family: 'poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color:rgb(1, 1, 10) ;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(182, 130, 230);
+            font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.8rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+        .firstsection >div{
+            width: 30%;
+        }
+        .leftsection{
+            margin: 80px 0;
+           font-size: 2rem;
+        }
+      
+        
+        .rightsection img{
+            width: 70%;
+            margin: 50px 0;
+            border-radius: 40%;
+        }
+        .name{
+            color: blueviolet;
+            font-size: 2rem;
+        }
+        #element{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">shudhanshu kumar portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skille.html">skille</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi my name is <samp class="name">shudhanshu kumar</samp> 
+                <div>and I am passionate</div>
+                
+                <span id="element"><div>Web Devloper</div></span>
+            </div>
+
+            <div class="rightsection">
+                <img src="WhatsApp Image 2023-11-03 at 2.47.12 PM.jpeg" alt="Image">
+            </div>
+
+        </section>
+       
+        
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
